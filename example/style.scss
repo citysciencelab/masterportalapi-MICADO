@@ -1,0 +1,31 @@
+/* CSS for example page. Do not manipulate map itself here, has no effect on prod. */
+html, body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 100%;
+    font-family: sans-serif;
+
+    .mock-body {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+
+        .mock-content {
+            padding: 1em;
+            color: black;
+            background: #E0E0E0;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            .content-mock {
+                padding: 0.2em;
+            }
+        }
+
+        /* Not part of MPAPI, but really nice if no background image is configured. */
+        .map-background {
+            background: #22222222;
+        }
+    }
+}

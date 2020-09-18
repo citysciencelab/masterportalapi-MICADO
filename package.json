@@ -1,0 +1,68 @@
+{
+  "_from": "git+https://dasc3290@bitbucket.org/dasc3290/masterportalapi-csl.git",
+  "_id": "masterportalAPI@1.1.0",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/masterportalAPI",
+  "_phantomChildren": {
+    "ieee754": "1.1.13",
+    "pixelworks": "1.1.0",
+    "resolve-protobuf-schema": "2.1.0"
+  },
+  "_requested": {
+    "type": "git",
+    "raw": "masterportalAPI@git+https://dasc3290@bitbucket.org/dasc3290/masterportalapi-csl.git",
+    "name": "masterportalAPI",
+    "escapedName": "masterportalAPI",
+    "rawSpec": "git+https://dasc3290@bitbucket.org/dasc3290/masterportalapi-csl.git",
+    "saveSpec": "git+https://dasc3290@bitbucket.org/dasc3290/masterportalapi-csl.git",
+    "fetchSpec": "https://dasc3290@bitbucket.org/dasc3290/masterportalapi-csl.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+https://dasc3290@bitbucket.org/dasc3290/masterportalapi-csl.git#9c7f1d8d7e07b27ed140d93e621d1177a1bd3ebe",
+  "_spec": "masterportalAPI@git+https://dasc3290@bitbucket.org/dasc3290/masterportalapi-csl.git",
+  "_where": "/home/jowie/Desktop/CityScienceLab/MICADO/MICADO_APP/pa_application/app",
+  "author": {
+    "name": "Landesbetrieb Geoinformation und Vermessung Hamburg"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "ol": "^5.3.0",
+    "proj4": "^2.5.0",
+    "xml2js": "^0.4.19"
+  },
+  "deprecated": false,
+  "description": "Grundfunktionen des Masterportals als API",
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/plugin-transform-modules-commonjs": "^7.1.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "canvas": "^2.1.0",
+    "eslint": "^5.12.0",
+    "jest": "^23.6.0",
+    "jest-canvas-mock": "^1.1.0",
+    "jsdoc": "^3.6.3",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.14.3"
+  },
+  "engines": {
+    "node": ">=8.12.0"
+  },
+  "license": "MIT",
+  "main": "src/index.js",
+  "name": "masterportalAPI",
+  "peerDependencies": {},
+  "scripts": {
+    "example": "parcel example/index.html",
+    "generate-jsdoc": "jsdoc ./src -r -d ./docs/ -R ./README.md -c jsdoc.json",
+    "test": "jest .test.js --config ./jest.config.js --collectCoverage",
+    "test:watch": "jest .test.js --config ./jest.config.js --watch"
+  },
+  "version": "1.1.0"
+}
